@@ -7,14 +7,15 @@ class CrewMember {
       this.currentShip = 'Looking for a Rig'
     }
     if (this.position === 'Pilot') {
-      
+
     }
     if (this.position === 'Defender') {
-      
+
     }
-    if (this.position === 'Defender') {
-      
+    if (this.position === 'Gunner') {
+
     }
+    
   }
 
 
