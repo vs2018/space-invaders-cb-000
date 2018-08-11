@@ -1,6 +1,10 @@
 class Spaceship {
 
-  constructor(name, crewArray, phasers, shields)
+  constructor(name, crewArray, phasers, shields) {
+    this.name = name
+    this.crewArray = crewArray
+    
+  }
 
 
 
@@ -13,7 +17,7 @@ class Spaceship {
 
 
 
-  
+
 }
 
 
