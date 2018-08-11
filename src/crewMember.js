@@ -6,7 +6,7 @@ class CrewMember {
     if (this.currentShip === undefined) {
       this.currentShip = 'Looking for a Rig'
     }
-    this.
+    this.currentShip.
   }
 
 
