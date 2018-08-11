@@ -12,12 +12,12 @@ class CrewMember {
       }
     }
     if (this.position === 'Defender' && this.currentShip === undefined) {
-      this.engageWarpDrive = function () {
+      this.setsInvisibility = function () {
         return 'had no effect'
       }
     }
     if (this.position === 'Gunner' && this.currentShip === undefined) {
-      this.engageWarpDrive = function () {
+      this.chargePhasers = function () {
         return 'had no effect'
       }
     }
@@ -28,4 +28,3 @@ class CrewMember {
 
 
 }
-
