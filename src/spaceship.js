@@ -20,7 +20,7 @@ class Spaceship {
   }
 
   notifyCrew() {
-  this.crew.forEach(crewMember => (crewMember.currentShip = this));
+  this.crewArray.forEach(crewMember => (crewMember.currentShip = this));
 }
 
 
