@@ -24,8 +24,6 @@ class CrewMember{
         this.currentShip.cloaked = true
 
       }
-
-      }
     }
 
     chargePhasers () {
