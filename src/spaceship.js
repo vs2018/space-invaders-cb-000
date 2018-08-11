@@ -7,7 +7,10 @@ class Spaceship {
     this.shields = shields
     this.cloaked = false
     this.warpDrive = 'disengaged'
-    
+    if (crewArray.length === 0) {
+      this.docked = true
+    }
+
 
   }
 
