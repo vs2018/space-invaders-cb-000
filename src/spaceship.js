@@ -4,7 +4,7 @@ class Spaceship {
     this.name = name
     this.crewArray = crewArray
     for (var crew in crewArray) {
-      super.currentShip =
+      
     }
     this.phasers = phasers
     this.shields = shields
