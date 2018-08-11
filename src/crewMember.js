@@ -1,1 +1,18 @@
-class CrewMember {}
+class CrewMember {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
