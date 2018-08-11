@@ -57,14 +57,14 @@ class CrewMember{
     chargePhasers () {
       if (this.position === 'Gunner' && this.currentShip === 'Looking for a Rig') {
         return 'had no effect'
-      } 
+      }
 
       if (this.position === 'Gunner' && this.currentShip !== 'Looking for a Rig') {
-        return 'had no effect'
-      } 
+        this.currentShip.phasersCharge = 'charged'
 
-      if 
-      this.currentShip.phasersCharge = 'charged'
+      }
+
+      
     }
 
 
