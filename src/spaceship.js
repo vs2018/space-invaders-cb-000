@@ -3,7 +3,6 @@ class Spaceship {
   constructor(name, crewArray, phasers, shields) {
     this.name = name
     this.crewArray = crewArray
-    this.crewArray.forEach(crewMember => (crewMember.currentShip = this));
 
     this.phasers = phasers
     this.shields = shields
@@ -15,6 +14,8 @@ class Spaceship {
       this.docked = false
     }
     this.phasersCharge = 'uncharged'
+    this.crewArray.forEach(crewMember => (crewMember.currentShip = this));
+
 
   }
 
