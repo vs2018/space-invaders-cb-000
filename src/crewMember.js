@@ -9,6 +9,12 @@ class CrewMember {
     if (this.position === 'Pilot') {
       
     }
+    if (this.position === 'Defender') {
+      
+    }
+    if (this.position === 'Defender') {
+      
+    }
   }
 
 
