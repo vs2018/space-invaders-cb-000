@@ -1,4 +1,4 @@
-class Spaceship {
+class Spaceship extends CrewMember {
 
   constructor(name, crewArray, phasers, shields) {
     this.name = name
