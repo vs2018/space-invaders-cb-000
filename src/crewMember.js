@@ -6,7 +6,7 @@ class CrewMember {
     if (this.currentShip === undefined) {
       this.currentShip = 'Looking for a Rig'
     }
-    
+    if (this.position === 'Pilot')
   }
 
 
@@ -14,6 +14,10 @@ class CrewMember {
 
 }
 
+
+tristan = new CrewMember('Pilot');
+jon = new CrewMember('Defender');
+katie = new CrewMember('Gunner');
 
 // -const expect = chai.expect;
 
