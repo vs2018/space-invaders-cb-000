@@ -4,7 +4,7 @@ class Spaceship extends CrewMember {
     this.name = name
     this.crewArray = crewArray
     for (var crew in crewArray) {
-      crew.currentShip =
+      super.currentShip =
     }
     this.phasers = phasers
     this.shields = shields
