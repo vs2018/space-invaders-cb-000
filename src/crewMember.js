@@ -9,7 +9,6 @@ class CrewMember {
       this.currentShip = 'Looking for a Rig'
     }
 
-    }
 
 
     if (this.position === 'Pilot' && this.currentShip === undefined) {
@@ -27,6 +26,11 @@ class CrewMember {
         return 'had no effect'
       }
     }
+
+    }
+
+
+  
 
 
 
