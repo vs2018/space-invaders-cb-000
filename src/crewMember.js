@@ -3,7 +3,6 @@ class CrewMember{
 
   constructor(position) {
     this.position = position
-    this.currentShip = undefined
     if (this.currentShip === undefined) {
       this.currentShip = 'Looking for a Rig'
     }
