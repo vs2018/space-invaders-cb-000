@@ -14,13 +14,13 @@ class CrewMember {
       }
     }
 
-    engageWarpDrive () {
+    setsInvisibility () {
       if (this.position === 'Defender' && this.currentShip === 'Looking for a Rig') {
         return 'had no effect'
       }
     }
 
-    engageWarpDrive () {
+    chargePhasers () {
       if (this.position === 'Gunner' && this.currentShip === 'Looking for a Rig') {
         return 'had no effect'
       }
@@ -37,23 +37,3 @@ class CrewMember {
 
 
   }
-
-  tristan = new CrewMember('Pilot');
-  jon = new CrewMember('Defender');
-  katie = new CrewMember('Gunner');
-});
-
-it('should know their position', () => {
-  expect(tristan.position).to.eq('Pilot');
-  expect(jon.position).to.eq('Defender');
-  expect(katie.position).to.eq('Gunner');
-});
-
-it("should return 'Looking for a Rig' if they aren't assigned to a ship", () => {
-  expect(tristan.currentShip).to.match(/Looking for a Rig/i);
-});
-
-it("should return 'had no effect' when the crew member tries to use their special ability when not assigned to a ship", () => {
-  expect(tristan.engageWarpDrive()).to.match(/had no effect/i);
-  expect(jon.setsInvisibility()).to.match(/had no effect/i);
-  expect(katie.chargePhasers()).to.match(/had no effect/i);
