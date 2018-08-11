@@ -3,9 +3,8 @@ class Spaceship {
   constructor(name, crewArray, phasers, shields) {
     this.name = name
     this.crewArray = crewArray
-    for (var crew in crewArray) {
-      
-    }
+    this.crew.forEach(crewMember => (crewMember.currentShip = this));
+
     this.phasers = phasers
     this.shields = shields
     this.cloaked = false
