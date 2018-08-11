@@ -3,7 +3,7 @@ class CrewMember{
 
   constructor(position) {
     this.position = position
-  
+
       this.currentShip = 'Looking for a Rig'
     
     }
@@ -23,6 +23,8 @@ class CrewMember{
     chargePhasers () {
       if (this.position === 'Gunner' && this.currentShip === 'Looking for a Rig') {
         return 'had no effect'
+      } else {
+        
       }
     }
 
