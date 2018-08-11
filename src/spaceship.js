@@ -14,7 +14,7 @@ class Spaceship {
       this.docked = false
     }
     this.phasersCharge = 'uncharged'
-    this.crewArray.forEach(crewMember => (crewMember.currentShip = this));
+    this.notifyCrew();
 
 
   }
