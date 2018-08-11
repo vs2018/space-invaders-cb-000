@@ -9,7 +9,7 @@ class CrewMember {
     }
 
     engageWarpDrive () {
-      if (this.position === 'Pilot' && this.currentShip === undefined) {
+      if (this.position === 'Pilot' && this.currentShip === 'Looking for a Rig') {
         return 'had no effect'
       }
     }
