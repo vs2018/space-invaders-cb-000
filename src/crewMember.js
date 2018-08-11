@@ -1,4 +1,4 @@
-class CrewMember {
+class CrewMember extends Spaceship{
 
 
   constructor(position) {
