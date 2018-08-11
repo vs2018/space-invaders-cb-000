@@ -7,7 +7,9 @@ class CrewMember {
       this.currentShip = 'Looking for a Rig'
     }
     if (this.position === 'Pilot' && this.currentShip === undefined) {
-      
+      this.engageWarpDrive = function () {
+        
+      }
     }
     if (this.position === 'Defender') {
 
