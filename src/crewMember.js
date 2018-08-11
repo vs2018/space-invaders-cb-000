@@ -20,6 +20,7 @@ class CrewMember{
       if (this.position === 'Defender' && this.currentShip === 'Looking for a Rig') {
         return 'had no effect'
       } else {
+        this.currentShip.cloaked = true
 
       }
     }
