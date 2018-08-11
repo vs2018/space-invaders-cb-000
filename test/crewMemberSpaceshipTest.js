@@ -24,9 +24,9 @@ describe('ship with a crew', () => {
     it('should create the association between a crew member and ship', () => {
       expect(pilot.currentShip.shields).to.eq(4);
       expect(pilot.currentShip).to.have.own.property('name', 'Millenium Falcon');
-      // expect(pilot.currentShip.crew[0]).to.deep.eq(pilot);
-      // expect(pilot.currentShip.crew[1]).to.deep.eq(defender);
-      // expect(pilot.currentShip.crew[2]).to.deep.eq(gunner);
+      expect(pilot.currentShip.crew[0]).to.deep.eq(pilot);
+      expect(pilot.currentShip.crew[1]).to.deep.eq(defender);
+      expect(pilot.currentShip.crew[2]).to.deep.eq(gunner);
     });
   });
 
