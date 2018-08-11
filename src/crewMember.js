@@ -6,8 +6,8 @@ class CrewMember {
     if (this.currentShip === undefined) {
       this.currentShip = 'Looking for a Rig'
     }
-    if (this.position === 'Pilot') {
-
+    if (this.position === 'Pilot' && this.currentShip === undefined) {
+      
     }
     if (this.position === 'Defender') {
 
@@ -15,7 +15,7 @@ class CrewMember {
     if (this.position === 'Gunner') {
 
     }
-    
+
   }
 
 
