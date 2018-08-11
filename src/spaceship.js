@@ -10,7 +10,7 @@ class Spaceship {
     if (crewArray.length === 0) {
       this.docked = true
     }
-
+    this.phasersCharge
 
   }
 
