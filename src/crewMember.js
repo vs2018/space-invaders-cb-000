@@ -11,11 +11,15 @@ class CrewMember {
         return 'had no effect'
       }
     }
-    if (this.position === 'Defender') {
-
+    if (this.position === 'Pilot' && this.currentShip === undefined) {
+      this.engageWarpDrive = function () {
+        return 'had no effect'
+      }
     }
-    if (this.position === 'Gunner') {
-
+    if (this.position === 'Pilot' && this.currentShip === undefined) {
+      this.engageWarpDrive = function () {
+        return 'had no effect'
+      }
     }
 
   }
