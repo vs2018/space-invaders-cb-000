@@ -14,6 +14,20 @@ class CrewMember {
       }
     }
 
+    engageWarpDrive () {
+      if (this.position === 'Pilot' && this.currentShip === 'Looking for a Rig') {
+        return 'had no effect'
+      }
+    }
+
+    engageWarpDrive () {
+      if (this.position === 'Pilot' && this.currentShip === 'Looking for a Rig') {
+        return 'had no effect'
+      }
+    }
+
+    
+
 
 
 
