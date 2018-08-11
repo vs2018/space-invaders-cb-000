@@ -3,7 +3,7 @@ class CrewMember {
 
   constructor(position) {
     this.position = position
-    
+
     }
 
     if (this.currentShip === undefined) {
@@ -23,12 +23,9 @@ class CrewMember {
       this.chargePhasers = function () {
         return 'had no effect'
       }
+    }
 
 
-    
+
 
   }
-
-
-
-
