@@ -18,23 +18,3 @@ class Spaceship {
 
 
 }
-
-
-
-    it('should have its cloaking set to false by default', () => {
-      expect(spaceship.cloaked).to.eq(false);
-    });
-
-    it("should have its warp drive set to 'disengaged' by default", () => {
-      expect(spaceship.warpDrive).to.match(/disengaged/i);
-    });
-
-    it('should be docked if it has no crew', () => {
-      expect(spaceship.docked).to.eq(true);
-    });
-
-    it("should have its 'phasers' charge set to 'uncharged' by default", () => {
-      expect(spaceship.phasersCharge).to.match(/uncharged/i);
-    });
-  });
-});
