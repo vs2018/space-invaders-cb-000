@@ -4,16 +4,8 @@ class Spaceship {
     this.name = name
     this.crewArray = crewArray
     
+    
   }
-
-
-
-
-
-
-
-
-
 
 
 
